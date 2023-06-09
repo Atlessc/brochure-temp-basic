@@ -10,6 +10,7 @@ function App() {
       <Header/>
       <MainContent/>
       <Footer/>
+      <a href={"/Page2"}><div className='next-page'>></div></a>
     </div>
   )
 }
