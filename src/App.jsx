@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
+
 
 function App() {
 
@@ -10,7 +12,7 @@ function App() {
       <Header/>
       <MainContent/>
       <Footer/>
-      <a href={"/Page2"}><div className='next-page'>></div></a>
+      <Link to="/Page2" className='next-page'>></Link>
     </div>
   )
 }

@@ -38,12 +38,12 @@
 
 .next-page {
   display: flex;
-
   justify-content: center;
   align-items: center;
   position: absolute;
+  text-decoration: none;
   bottom: 40%;
-  right:0;
+  right: 0%;
   margin: 10px;
   font-size: 60px;
   font-weight: bold;
@@ -58,6 +58,118 @@
   -o-border-radius: 10px;
 }
 
+.back-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-decoration: none;
+  bottom: 40%;
+  left: 0%;
+  margin: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.25);
+  border: 2px solid #494949;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Page2Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  min-height: 400px;
+  max-height: fit-content;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Page2-Header {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Page2-Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Page2-Content-Item {
+  margin: 35px 40px;
+}
+
+.Page2-Content-Item-Header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Page3Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  min-height: 400px;
+  max-height: fit-content;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Page3-Header {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.Page3-Body {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page3-Body-Contact-Phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.phone-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.Page3-Body-Contact-Email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.email-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
 
 .Footer {
   display: flex;
