@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <MainContent/>
       <Footer/>
-      <Link to="/Page2" className='next-page'>></Link>
+      <Link to="/Page2" className='next-page'>&gt;</Link>
     </div>
   )
 }
